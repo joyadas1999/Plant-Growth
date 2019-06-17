@@ -1,0 +1,39 @@
+print("Welcome to your new plant. Lets keep track on how far it grows. The total growth is listed below. ")
+plant_growth = 0
+new_plant_growth_day_1= 0.1
+new_plant_growth_day_2= 2.1
+new_plant_growth_day_3= 2.7
+new_plant_growth_day_4= 3.1
+new_plant_growth_day_5= 3.7
+new_plant_growth_day_6= 4.1
+new_plant_growth_day_7= 4.8
+new_plant_growth_day_8= 5.1
+plant_growth += new_plant_growth_day_1
+plant_growth += new_plant_growth_day_2
+plant_growth += new_plant_growth_day_3
+plant_growth += new_plant_growth_day_4
+plant_growth += new_plant_growth_day_5
+plant_growth += new_plant_growth_day_6
+plant_growth += new_plant_growth_day_7
+plant_growth += new_plant_growth_day_8
+print (plant_growth)
+print("Total amount of Sunlight with water added")
+sunlight_on_plant = 0
+amount_of_water_sprays_added = 2 
+sunlight_on_plant_day_1 = 1 * amount_of_water_sprays_added
+sunlight_on_plant_day_2 = 1.7 * amount_of_water_sprays_added
+sunlight_on_plant_day_3 = 2.3 * amount_of_water_sprays_added
+sunlight_on_plant_day_4 = 3.2 * amount_of_water_sprays_added
+sunlight_on_plant_day_5 = 4.2 * amount_of_water_sprays_added
+sunlight_on_plant_day_6 = 4.9 * amount_of_water_sprays_added
+sunlight_on_plant_day_7 = 5.3 * amount_of_water_sprays_added
+sunlight_on_plant_day_8 = 6.2 * amount_of_water_sprays_added
+sunlight_on_plant += sunlight_on_plant_day_1
+sunlight_on_plant += sunlight_on_plant_day_2
+sunlight_on_plant += sunlight_on_plant_day_3
+sunlight_on_plant += sunlight_on_plant_day_4
+sunlight_on_plant += sunlight_on_plant_day_5
+sunlight_on_plant += sunlight_on_plant_day_6
+sunlight_on_plant += sunlight_on_plant_day_7
+sunlight_on_plant += sunlight_on_plant_day_8
+print (sunlight_on_plant)
